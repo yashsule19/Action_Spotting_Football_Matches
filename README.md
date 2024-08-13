@@ -20,7 +20,11 @@ The project aims to study the existing state-of-art deep learning algorithms for
 The designed deep learning models can detect among the video frames of football matches which one are action frames and which are non – action frames.
 
 ## About the Dataset
-
+- The original dataset contains 500 games of football matches in the form of videos from six European Championships covering three seasons for the years 2014 to 2017.
+- I have only worked on first six games from the Englsih Premier League (EPL) for the season 2014-15 amounting almost 2GB of storage.
+- Each game had 6 pre - extracted feature (already extracted features from the videos - that I have utilized for my work) files and 1 labelled file (action labels such as goals, substituitons).
+- Pre - extracted features files were in numpy format (.npy) and labelled file was in JavaScript Object Notation format (.json).
+- Overall, there were 36 pre - extracted features files and 6 action labelled files.
 
 ## Tools Used
 - **Kaggle**: For building deep learning models using Python Programming Language.
@@ -49,6 +53,8 @@ The designed deep learning models can detect among the video frames of football 
     - **_Step – 7_**: Train the designed deep neural network model and predict the outcomes.
     - **_Step – 8_**: Evaluate the performance of the model.
     - **_Step – 9_**: Plot necessary graphical visualizations as per the problem domain.
+- In total, there were three pre - extracted types of features which were C3D, I3D and RESNET. 
+- Hence, with 3 types of pre - extracted features and 4 types of pooling techniques, 12 deep learning models were developed and analysed throughout this project.
 
 ## Conclusion
 - The ideology was to understand and study new emerging topic “Action spotting” in sporting videos related to the game of football.
